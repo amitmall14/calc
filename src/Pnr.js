@@ -2,7 +2,6 @@ import React, {useState,useEffect} from 'react';
 import axios from "axios";
 import Npnr from'./Npnr.js';
 import Header from'./Header.js';
-//import './Pnr.scss';
 
 
 
