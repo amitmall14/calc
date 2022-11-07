@@ -26,6 +26,7 @@ return(
 				<li><NavLink exact to='/login'>Login</NavLink></li>
 				<li><NavLink exact to="/home">Home</NavLink></li>
 				<li><NavLink exact to="/pnr">Check PNR</NavLink></li>
+				<li><NavLink exact to="/todoo">Todoo</NavLink></li>
 			
 			</ul>
 		</nav>

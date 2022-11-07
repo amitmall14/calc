@@ -16,6 +16,8 @@ import Bootstrap from'./Bootstrap.js';
 import Matarialui from'./Matarialui.js';
 import Pokimon from'./Pokimon.js';
 import Pnr from'./Pnr.js';
+import Todoo from'./Todoo.js';
+
 
 
 
@@ -24,13 +26,15 @@ function App(props) {
     <>
     
     
-    <Pokimon/>
+    
+
 
    
         <BrowserRouter>
           <Routes>  
           <Route  exact path= "/bootstrap" element= {<Bootstrap />} /> 
           <Route  exact path= "/matarialui" element= {<Matarialui />} /> 
+         
             
             <Route  exact path= "/www" element= {<Routdd />} /> 
              <Route  exact path= "/pnr" element= {<Pnr />} />   
@@ -40,6 +44,7 @@ function App(props) {
             <Route  exact path= "/todo" element= {<Todo />} />  
             <Route  exact path= "/fav" element= {<Fav />} />  
             <Route  exact path= "/todo" element= {<Todo />} /> 
+            <Route  exact path= "/todoo" element= {<Todoo />} /> 
             <Route  exact path= "/" element= {<HomePage />} /> 
             {/* <Route path="*" element={<NoPage />} /> 
 

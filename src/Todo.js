@@ -39,10 +39,11 @@ return(
 	<div className="container">
 	
 		<h1>Todo List</h1> 
-
+<div>
 		<input type="text" placeholder="Type your product" onChange={items}/>
 
         <button onClick={menu}> + </button>
+        </div>
 
        <ol>
          
