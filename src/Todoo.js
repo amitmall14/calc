@@ -34,6 +34,7 @@ const Todoo =()=> {
 		}
 	}
 
+
 	const dele =(index)=> {
 		console.log(index);
 		console.log(newData);
